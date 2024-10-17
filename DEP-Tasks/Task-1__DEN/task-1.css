@@ -1,0 +1,31 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 576px) {
+    .fs-1 {
+        font-size: 1.75rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .align-items-center {
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-top: 20px;
+    }
+}
+
